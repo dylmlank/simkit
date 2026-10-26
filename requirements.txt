@@ -1,0 +1,11 @@
+# Core
+anthropic>=0.40          # agent.py
+mcp>=1.2                 # mcp_server.py
+
+# OpenRocket: loads OpenRocket's jar into its own bundled JRE.
+jpype1>=1.5
+
+# FreeCAD, Fusion and OpenFOAM need no Python packages here:
+#   FreeCAD  - driven through its own freecadcmd.exe
+#   Fusion   - driven through the add-in, over a loopback socket
+#   OpenFOAM - driven through WSL

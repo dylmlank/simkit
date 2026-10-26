@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "addin",
+    "id": "b6f1c3a4-7d2e-4f58-9c31-6a0f2d8e4b17",
+    "author": "SimKit",
+    "description": {
+        "": "Lets Claude drive Fusion: sketches, solids, parameters and exports, over a loopback socket."
+    },
+    "version": "1.0.0",
+    "runOnStartup": true,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}
